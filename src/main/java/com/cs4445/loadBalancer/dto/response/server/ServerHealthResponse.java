@@ -12,16 +12,10 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ServerHealthResponse {
-
     //==========================================Variable==========================================
-    private String serverId;
-    private String serverUrl;
-    private boolean healthy;
-    private boolean serverOpen;
-    private int currentConnections;
-    private double cpuUsage;
-    private double memoryUsage;
-    private long responseTimeMs;
-    private LocalDateTime lastChecked;
-    private String errorMessage;
+    private double cpuUsagePercent;
+    private double memoryUsagePercent;
+    private double avgProcessingTimeSec;
+    private int currConnections ;
+    private boolean isOpen;
 }

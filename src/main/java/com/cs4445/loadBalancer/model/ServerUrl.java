@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ServerUrl {
-
     //==========================================Variable==========================================
     @Builder.Default
     private String dns = "http://localhost";
